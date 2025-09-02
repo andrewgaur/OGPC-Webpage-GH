@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/57061b0399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main Navigation">
+            <div class="navbar__container">
+                <!-- container for the entirety of the nav bar -->
+                <a href="index.html" id="navbar-logo">club logo here</a>
+                <ul class="navbar__menu">
+                    <!-- list of all items in the nav bar -->
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__links">Home</a>
+                    </li>
+
+                    <li class="navbar__item">
+                        <a href="about.html" class="navbar__links">Our Team</a>
+                    </li>
+
+                    <li class="navbar__item">
+                        <a href="portfolio.html" class="navbar__links">Portfolio</a>
+                    </li>
+
+                    <li class="navbar__item">
+                        <a href="teamupdates.html" class="navbar__links">Game Updates</a>
+                    </li>
+
+                    <li class="navbar__item">
+                        <a href="gameprogress.html" class="navbar__links">Team Resources</a>
+                    </li>
+
+                    <!-- log in BUTTON for MOBILE-->
+                    
+                    <li class="navbar__btn mobile">
+                        <a href="login.html" class="button">Log In</a>
+                    </li>
+                </ul>
+
+                <div class="navbar__btn desktop">
+                    <!-- log in button for DESKTOP -->
+                    <a href="login.html" class="button">Log In</a>
+                </div>
+
+                <button 
+                class="navbar__toggle"
+                id="mobile-menu"
+                aria-label="toggle navigation"
+                aria-expanded="false">
+                    <!-- menu button for mobile -->
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cover">
+            <div class="cover__container">
+                <div class="cover__content">
+                    <!-- text on top of the cover image -->
+                    <h1 class="title__lg">Architechs OGPC Team</h1>
+                    <h1 class="title__sm">Architechs Team</h1>
+                    <p>Jesuit High School</p>
+                    <button class="cover__button">
+                        <a href="portfolio.html" id="cover-button-link">View Our Games</a>
+                        </button>
+                </div>
+
+                <div class="cover__image">
+                    <!-- image for the top of the main home page -->
+                    <img 
+                    class="bgimage"
+                    id="cover-mainimage"
+                    src="images/websitecode1.png"
+                    alt="code used in season 18 game"
+                    >
+                </div>
+            </div>
+        </section>
+        
+        <section class="about__main">
+            <div class="about__container">
+                <div class="about__title">
+                    <h1>Our Seasons</h1>
+                </div>
+                <div class="about__all">
+                    <div class="about__grid">
+                        <div class="about__content">
+                            <h1>Season 15</h1>
+                            <p>Architechs first began in 2021 at St. Pius X Middle School. Two of our current team leaders competed on the original team that year, winning Best in Show in Season 15. That year, Architechs created <i>Paracide</i>, a two-dimensional maze game depicting symbiotic relations between mutated alien parasites and human scientists.</p>
+                            <!-- <p>Architechs began in 2021 at St. Pius X Middle School, where two of our leaders participated in the original team. That year they created <i>Paracide</i>, which won Best in Show in Season 15.</p> -->
+                        </div>
+                        <div class="about__content">
+                            <h1>Season 18</h1>
+                            <p>Architechs returned for the 2024/25 season at Jesuit High School, featuring mostly rookies and two returning members. That year, our team competed in the high school category for the first time, winning the Theme and Story award for our game, <i>Cyclogenesis</i>, a top-down civilization simulator, but aiming to destroy society rather than develop it.</p>
+                            <!-- <p>Now, at Jesuit, the OGPC Club was founded, where we competed for the first time in Season 18, winning the Theme and Story award for our game <i>Cyclogenesis</i>. Now we're looking to expand our club and prepare to take on Season 19!</p> -->
+                        </div>
+                        <div class="about__content">
+                            <h1>Season 19</h1>
+                            <p>Check back in later this year for more information about Season 19!</p>
+                        </div>
+                    </div>
+                    <div class="about__team">
+                        <button class="team__button">
+                            <a href="about.html" id="team-about-btn">Meet Our Team</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer__container">
+                <div class="footer__links">
+                    <div class="footer__link-wrapper">
+                        <div class="footer__link-items">
+                            <!-- <h2>Footer Title</h2> -->
+                            <a href="about.html">About Us</a>
+                            <a href="login.html">Log In</a>
+                            <a href="contact.html">Contact Us</a>
+                            <a href="index.html">Join Our Team</a>
+                        </div>
+
+                        <!-- <div class="footer__link-items">
+                            <h2>Footer Title</h2>
+                            <a href="about.html">About Us</a>
+                            <a href="login.html">Log In</a>
+                            <a href="contact.html">Contact Us</a>
+                            <a href="index.html">Join Our Team</a>
+                        </div> -->
+                    </div>
+                </div>
+
+                <section class="social__media">
+                    <div class="social__media-wrap">
+                        <div class="footer__logo">
+                            <a href="index.html" id="footer-logo">Architechs OGPC Team</a>
+                        </div>
+                        <!-- <p class="website__rights">
+                            © little copyrights section lol
+                        </p> -->
+
+                        <div class="social__icons">
+                            <a 
+                            href="https://www.facebook.com" 
+                            class="social__icon_link"
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            aria-label="Facebook"
+                            >
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+
+                            <a 
+                            href="https://www.instagram.com" 
+                            class="social__icon_link"
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            aria-label="Instagram"
+                            >
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+
+                            <a 
+                            href="https://www.linkedin.com" 
+                            class="social__icon_link"
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn"
+                            >
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+
+                            <a 
+                            href="https://www.youtube.com" 
+                            class="social__icon_link"
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            aria-label="Youtube"
+                            >
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+
+                            <a 
+                            href="https://www.github.com" 
+                            class="social__icon_link"
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            aria-label="Github"
+                            >
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </footer>
+
+
+
+        <!-- test stuff -->
+
+        <!-- <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Login</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email:</label>
+                    <input type="email" id="loginEmail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password:</label>
+                    <input type="password" id="loginPassword" name="password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+        </div>
+    </div> -->
+
+    <!-- Register Modal -->
+    <!-- <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Sign Up</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="registerEmail">Email:</label>
+                    <input type="email" id="registerEmail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerPassword">Password:</label>
+                    <input type="password" id="registerPassword" name="password" required minlength="6">
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password:</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required minlength="6">
+                </div>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
+        </div>
+    </div> -->
+
+    <!-- Create Post Modal -->
+    <!-- <div id="createPostModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Create New Post</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <form id="postForm">
+                <div class="form-group">
+                    <label for="postTitle">Title:</label>
+                    <input type="text" id="postTitle" name="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="postContent">Content:</label>
+                    <textarea id="postContent" name="content" required rows="6"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="postImage">Image (optional):</label>
+                    <input type="file" id="postImage" name="image" accept="image/*">
+                </div>
+                <button type="submit" class="btn btn-primary">Create Post</button>
+            </form>
+        </div>
+    </div>
+
+    <section class="posts-section">
+                <h2>Latest Posts</h2>
+                <div id="postsContainer">
+                    <p class="loading">Loading posts...</p>
+                </div>
+            </section> -->
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
