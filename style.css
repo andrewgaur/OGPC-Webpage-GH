@@ -191,7 +191,7 @@ a {
     }
 
     .navbar__btn.mobile .navbar__links:hover {
-        color: #0228a3;
+        color: #0a3ee9;
 }
 
     .button {
@@ -373,7 +373,7 @@ a {
 }
 
 .about__content {
-    background-color: black;
+    background-color: #000;
     color: #fff;
     /* box-shadow: 5px 5px 4px rgba(0,0,0,2); */
     border-radius: 20px;
@@ -426,7 +426,7 @@ a {
 /* footer css */
 
 .footer__container {
-    background: #141414;
+    background: #0f0f0f;
     padding: 2.5rem 0;
     display: flex;
     flex-direction: column;
@@ -480,7 +480,7 @@ a {
 }
 
 .social__media {
-    background: #141414;
+    background: #0f0f0f;
     width: 100%;
     /* padding-bottom: 40px; */
 }
