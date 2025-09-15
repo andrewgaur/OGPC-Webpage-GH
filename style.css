@@ -288,7 +288,7 @@ a {
         text-align: center;
         margin-bottom: 4rem;
         padding: 0 2rem;
-        max-width: 90vw;
+        max-width: 345px;
         padding-top:80px;
     }
 
@@ -361,7 +361,7 @@ a {
 
 .about__container {
     /* padding-top: 1rem; */
-    width: 100%;
+    width: 100vw;
     /* align-items: center;
     justify-items: center; */
 }
@@ -374,6 +374,8 @@ a {
     background-color: #050505;
     padding: 1rem 0;
 }
+
+
 
 .about__grid {
     display:flex;
