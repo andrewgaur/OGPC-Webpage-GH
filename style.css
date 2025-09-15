@@ -183,7 +183,7 @@ a {
 
     .navbar__btn.mobile {
         display: flex;
-        margin-top: auto;
+        margin-top: 48px;
         width: 100%;
         justify-content: center;
     }
@@ -345,6 +345,11 @@ a {
         font-size: 1rem;
         padding: 9px 15px;
         border-radius: 5px;
+        justify-content: center;
+    }
+
+    .about__title {
+        justify-content: center;
     }
 }
 
