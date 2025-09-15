@@ -593,3 +593,31 @@ a {
 
 /* login button css */
 
+
+
+
+
+
+/* Center the cover button on all screens */
+.cover__button {
+  margin: 1.8rem auto 0 auto;  /* auto centers horizontally */
+  display: inline-flex;        /* keeps text centered inside */
+  justify-content: center;
+}
+
+/* Center the "Our Seasons" title */
+.about__title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Center the Meet Our Team button */
+.about__team {
+  display: flex;
+  justify-content: center;
+}
+
+.team__button {
+  margin: 0 auto 50px auto; /* centers horizontally */
+}
