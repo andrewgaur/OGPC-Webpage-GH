@@ -169,7 +169,7 @@ a {
         min-height: 80px;
         text-align:center;
         /* border: 1px solid red; */
-        border-bottom: 2px solid #333;
+        border-bottom: 4px solid #333;
     }
 
     .navbar__links {
@@ -179,7 +179,7 @@ a {
         padding: 2rem;
         height: auto;
         min-height: 50px;
-        border-bottom: 2px solid #333;
+        /* border-bottom: 2px solid #333; */
     }
 
     .navbar__btn.mobile {
@@ -214,6 +214,13 @@ a {
 .cover {
     background-color: #050505;
 }
+
+/* #team-cover-title-lg {
+    color: #000;
+}
+#team-cover-title-sm {
+    color: #000;
+} */
 
 .cover__container {
     padding-top: 80px;
@@ -333,6 +340,9 @@ a {
         overflow: hidden;
         height: 100%;
     } */
+    .bgimage {
+    width:105vw;
+}
 }
 
 /* this is here so that it's overridden whhen screen is smaller */
@@ -372,6 +382,7 @@ a {
 
     .bgimage {
         padding-top: 20px;
+        width:120vw;
     }
 
     .cover__button {
