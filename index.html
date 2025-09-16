@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/OGPC-Logo-White.png">
     <script src="https://kit.fontawesome.com/57061b0399.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -12,7 +13,14 @@
         <nav class="navbar" role="navigation" aria-label="Main Navigation">
             <div class="navbar__container">
                 <!-- container for the entirety of the nav bar -->
-                <a href="index.html" id="navbar-logo">club logo here</a>
+                <a href="index.html" id="navbar-logo">
+                    <img 
+                    class="navbar-image"
+                    id="navbar-image"
+                    src="images/OGPC-Logo-White.svg"
+                    alt="club logo"
+                    >
+                    Architechs</a>
                 <ul class="navbar__menu">
                     <!-- list of all items in the nav bar -->
                     <li class="navbar__item">
@@ -172,6 +180,23 @@
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
 
+                            <div class="tms__container">
+                                <a 
+                                href="https://tms.ogpc.info/Teams/Details/f066114b-c2d1-4b2e-bfd2-b763faffcd9b" 
+                                class="social__icon_link"
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                aria-label="TMS"
+                                id="socials-tms"
+                                >
+                                <i class="fa-solid fa-plus"></i>
+                                <p id="socials-tms-text">
+                                    TMS
+                                </p>
+                            </a>
+                            </div>
+                            
+
                             <a 
                             href="https://www.linkedin.com" 
                             class="social__icon_link"
@@ -289,6 +314,8 @@
                 </div>
             </section> -->
 
+
+        
     </main>
 
     <script src="app.js"></script>
