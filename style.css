@@ -40,14 +40,13 @@ a {
     font-size: 2rem;
     display:flex;
     align-items: center;
-    gap: 20px;
+    gap: 12px;
     overflow-x: visible;
 }
 
 #navbar-image {
     max-height: 70px;
     flex-shrink: 0;
-    color: #31baff;
 }
 
 .navbar__menu {
@@ -219,8 +218,13 @@ a {
 }
 
     #navbar-logo {
-        gap: 6px;
+        gap: 8px;
+        font-size: 1.8rem;
     }
+
+    #navbar-image {
+        max-height: 60px;
+}
 }
 
 /* cover image and text CSS */
