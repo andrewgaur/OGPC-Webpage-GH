@@ -259,11 +259,15 @@ a {
     cursor: pointer;    
     text-decoration: none;
     display: flex;
+    flex-direction: row;
     align-items: center;
     margin-top: 1.8rem;
     transition: all 0.3s ease;
     font-size: 1.8rem;
     text-decoration: none;
+    margin: 1.8rem auto 0 auto;  /* auto centers horizontally */
+    /* display: inline-flex;        keeps text centered inside */
+    justify-content: center;
 }
 
 .cover__button:hover {
@@ -273,6 +277,16 @@ a {
 #cover-button-link {
     text-decoration: none;
     color: #fff;
+}
+
+#cover-button-signup {
+    text-decoration: none;
+    color: #fff;
+}
+@media screen and (min-width: 968px) {
+    #cover-signup {
+        margin-top: 20px;
+    }
 }
 
 .bgimage {
@@ -304,15 +318,34 @@ a {
 
     .cover__button {
         margin-top: 0.8rem;
-        font-size: 1.4rem;
-        padding: 12px 18px;
+        font-size: 1.2rem;
+        padding: 9px 15px;
         border-radius: 6px;
+    }
+
+    .cover__button__container {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
     }
 
     /* .bgimage {
         overflow: hidden;
         height: 100%;
     } */
+}
+
+/* this is here so that it's overridden whhen screen is smaller */
+.about__title {
+    align-items: center;
+    justify-items: center;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #050505;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 @media screen and (max-width: 680px) {
@@ -367,17 +400,6 @@ a {
     justify-items: center; */
 }
 
-.about__title {
-    align-items: center;
-    justify-items: center;
-    font-size: 1.4rem;
-    color: #fff;
-    background-color: #050505;
-    padding: 1rem 0;
-}
-
-
-
 .about__grid {
     display:flex;
     flex-wrap: wrap;
@@ -411,6 +433,11 @@ a {
     text-align: center;
 }
 
+.about__team {
+    display: flex;
+    justify-content: center;
+}
+
 .team__button {
     background: #31baff;
     padding: 12px 20px;
@@ -426,6 +453,7 @@ a {
     transition: all 0.3s ease;
     font-size: 1.4rem;
     text-decoration: none;
+    margin: 0 auto 50px auto; /* centers horizontally */
 }
 
 .team__button:hover {
@@ -598,26 +626,9 @@ a {
 
 
 
-/* Center the cover button on all screens */
-.cover__button {
-  margin: 1.8rem auto 0 auto;  /* auto centers horizontally */
-  display: inline-flex;        /* keeps text centered inside */
-  justify-content: center;
-}
 
-/* Center the "Our Seasons" title */
-.about__title {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
 
-/* Center the Meet Our Team button */
-.about__team {
-  display: flex;
-  justify-content: center;
-}
 
-.team__button {
-  margin: 0 auto 50px auto; /* centers horizontally */
-}
+
+
+
